@@ -1,34 +1,66 @@
-.navbar-light .navbar-brand {
-    color: #4F2582;
-    font-family: 'Dancing Script', cursive;
-    font-size: 32px;
+a:link {
+  text-decoration: none;
+  color: #9B30FF;
 }
-.jumbotron {
+a:visited{
+  text-decoration: none;
+  color: #9B30FF;
+}
+a:hover {
+  text-decoration: bold;
+  color: #000000;
+}
+.navbar-light .navbar-brand {
+  color: #4F2582;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
+#index .jumbotron {
   background-image: url(kgh.jpg);
   background-size: cover;
-  height: 800px;
+  height: 800px;#index
   box-shadow: 0px 20px 100px gray;
 }
-.jumbotron h1{
+#index .jumbotron h1{
   color: #;
   font-size: 36px;
 }
-.blockquote{
+#index .blockquote{
   font-size: 20px;
 }
-.blockquote-footer{
+#index .blockquote-footer{
   color:#000;
 }
-.container-fluid h1{
+#index .container-fluid h1{
   text-align: center;
   color: #4F2582;
   font-family: 'Dancing Script', cursive;
   font-size: 80px;
 }
-.container-fluid h3{
+#index .container-fluid h3{
   text-align: center;
 }
-.row {
+#index .row {
   padding-top: 30px;
   padding-bottom: 60px;
+}
+#about .row {
+  padding-top: 120px;
+}
+#about .img-fluid {
+  width: 80%;
+  height: auto;
+  box-shadow: 0px 20px 80px gray;
+}
+#about .media-body {
+  align-content: center;
+}
+#classes .jumbotron {
+  background-image: url(collab.jpg);
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 20px 100px gray;
+}
+#trips .d-block {
+  max-height: 890px;
 }
