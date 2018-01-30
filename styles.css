@@ -48,22 +48,22 @@ a:hover {
   width: 100%
 }
 #about .container-fluid{
-  margin: 300px;
-  min-height: 100%;
+  margin: 10%;
+  width: 100%;
 }
 #aboutrow {
-  margin: 120px;
-  min-height: 100%;
-  min-width: 768px;
+  margin: 10%;
+  height: 100%;
 }
-#about .img-thumbnail {
+#aboutimage {
   align-content: center;
-  max-width: 80%;
-  max-height: 80%;
+  margin-right: 10%;
+  max-width: 90%;
   box-shadow: 0px 20px 80px gray;
 }
-#about .media-body {
+#aboutmediabody {
   align-content: center;
+  margin: 10%;
 }
 #classes .jumbotron {
   background-image: url(collab.jpg);
@@ -73,6 +73,7 @@ a:hover {
 }
 #academics {
   width: 100%;
+  overflow: hidden;
 }
 #trips .d-block {
   max-height: 890px;
